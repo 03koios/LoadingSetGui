@@ -1,22 +1,14 @@
 wait(1)
 game.StarterGui:SetCore("SendNotification", {
-Title = "discord.gg/urs2cRBHXU"; 
-Text = "Join Discord For More Update";
-Duration = 10; 
+Title = "Pog Hub Loaded"; 
+Text = "Loaded";
+Duration = 1; 
 })
 
-
-wait(1)
-game.StarterGui:SetCore("SendNotification", {
-Title = "Discord"; 
-Text = "Discord Link Already Copy in your clipboard";
-Duration = 10; 
-})
-setclipboard("discord.gg/urs2cRBHXU")
-
-wait(1)
-game.StarterGui:SetCore("SendNotification", {
-Title = "Enjoy The Script"; 
-Text = "Enjoy The script!";
-Duration = 10; 
+bc = BrickColor.new("White")
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = "Pog Hub is Ready | discord.gg/urs2cRBHXU | Credits 03.s#6260";
+	Font = Enum.Font.Cartoon;
+	Color = bc.Color;
+	FontSize = Enum.FontSize.Size96;	
 })
