@@ -27,3 +27,10 @@ game.StarterGui:SetCore("ChatMakeSystemMessage", {
 	Color = bc.Color;
 	FontSize = Enum.FontSize.Size96;	
 })
+
+wait(5)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Key System"; 
+Text = "Key System Credits To Adminus#1220";
+Duration = 1; 
+})
