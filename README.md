@@ -1,7 +1,7 @@
 wait(1)
 spawn(function()
     game.StarterGui:SetCore("SendNotification", {
-	Title = "Anti Afk Always On"; 
+	Title = "Anti Afk System"; 
 	Text = "Anti Afk Always On";
 	Icon = ""; 
 	Duration = 1; 
