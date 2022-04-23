@@ -1,11 +1,4 @@
 wait(1)
-game.StarterGui:SetCore("SendNotification", {
-Title = "Loaded Scripts"; 
-Text = "Loaded";
-Duration = 1; 
-})
-
-wait(1)
 spawn(function()
     game.StarterGui:SetCore("SendNotification", {
 	Title = "Anti Afk Always On"; 
@@ -22,7 +15,7 @@ end
 wait(2)
 bc = BrickColor.new("White")
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
-	Text = "Pog Hub No Carte | discord.gg/x4gGhjVxXz";
+	Text = "Pog Hub No Carte | discord.gg/x4gGhjVxXz | 03.s#6260";
 	Font = Enum.Font.Cartoon;
 	Color = bc.Color;
 	FontSize = Enum.FontSize.Size96;	
