@@ -1,32 +1,29 @@
 wait(1)
-local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
+game.StarterGui:SetCore("SendNotification", {
+Title = "Loaded Scripts"; 
+Text = "Loaded";
+Duration = 1; 
+})
 
 wait(1)
-Notification.Notify("Credits Scripts", "Credits : 03.s#6260", "Credits", {
-Duration = 2,       
-Main = {
-    Rounding = true,
-}
-});
-wait(2)
-Notification.Notify("Anti Afk System", "Anti Afk Always On", "AFK", {
-Duration = 2,       
-Main = {
-    Rounding = true,
-}
-});
+spawn(function()
+    game.StarterGui:SetCore("SendNotification", {
+	Title = "Anti Afk Always On"; 
+	Text = "Anti Afk Always On";
+	Icon = ""; 
+	Duration = 1; 
+})
+end) 
 
 for i,v in pairs(getconnections(game.Players.LocalPlayer.Idled)) do
 v:Disable()
 end
 
-
 wait(3)
-Notification.Notify("Discord", "Discord Server Already Copy in Your Clipboard", "Discord", {
-Duration = 2,       
-Main = {
-    Rounding = true,
-}
-});
-
-setclipboard("discord.gg/x4gGhjVxXz")
+bc = BrickColor.new("White")
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = "Pog Hub No Carte | discord.gg/x4gGhjVxXz | 03.s#6260";
+	Font = Enum.Font.Cartoon;
+	Color = bc.Color;
+	FontSize = Enum.FontSize.Size96;	
+})
