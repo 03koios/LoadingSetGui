@@ -3,14 +3,14 @@ local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/Iri
 
 wait(1)
 Notification.Notify("Credits Scripts", "Credits : 03.s#6260", "Credits", {
-Duration = 2,       
+Duration = 1,       
 Main = {
     Rounding = true,
 }
 });
 wait(2)
 Notification.Notify("Anti Afk System", "Anti Afk Always On", "AFK", {
-Duration = 2,       
+Duration = 1,       
 Main = {
     Rounding = true,
 }
@@ -23,7 +23,7 @@ end
 
 wait(3)
 Notification.Notify("Discord", "Discord Server Already Copy in Your Clipboard", "Discord", {
-Duration = 2,       
+Duration = 1,       
 Main = {
     Rounding = true,
 }
